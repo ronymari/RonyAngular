@@ -1,0 +1,49 @@
+
+/* Estilos para el contenedor */
+.container {
+    position: relative; 
+    display: inline-block; 
+  }
+  
+  /* Estilos para el botón */
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px; /* Reducir el margen superior para acercar el botón al contenedor */
+    margin-left: 20px;
+    border-radius: 5px; /* Agregar bordes redondeados al botón */
+  }
+  button:active {
+    background-color: #ce9818; /* Cambia el color al ser presionado */
+  }
+  /* Estilos para la lista */
+  .list {
+    position: absolute;
+    top: 100%; /* Colocar la lista justo debajo del botón */
+    left: -130px;
+    background-color: #f3eaea;
+    border: 1px solid #656161;
+    padding: 0px;
+    min-width: 165px; /* Aumentar un poco el ancho mínimo */
+    z-index: 1; /* Capa de elevación para que la lista esté sobre el botón */
+    margin-top: 10px; /* Reducir el margen superior para que esté más cerca del botón */
+    border-radius: 5px; /* Agregar bordes redondeados a la lista */
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2); /* Agregar sombra para resaltar la lista */
+  }
+  
+  /* Estilo para los elementos de la lista */
+  .list div {
+    padding: 8px 12px;
+    color: #444;
+  }
+  
+  /* Estilo para resaltar los elementos al pasar el mouse por encima */
+  .list div:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  
